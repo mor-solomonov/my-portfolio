@@ -395,6 +395,24 @@ h6 {
   margin: 3rem;
 }
 
+.creatives-around-image {
+  width: 20rem;
+}
+
+.creatives-around-description {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.img-container {
+  margin-top: 3rem;
+}
+
+.c-a-images-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
