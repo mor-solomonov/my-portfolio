@@ -425,7 +425,7 @@ img {
 
 @media screen and (max-width: 850px) {
   .c-a-images-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     align-content: center;
     justify-content: center;
   }
@@ -437,6 +437,12 @@ img {
 
   .creatives-around-image {
     width: 15rem;
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .c-a-images-container {
+    grid-template-columns: 1fr;
   }
 }
 
