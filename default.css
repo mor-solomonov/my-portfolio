@@ -78,6 +78,11 @@ h6 {
 img {
   width: 100%;
 }
+.img-container {
+  max-width: 600px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 .s1 {
   background-color: var(--mainColor);
@@ -407,10 +412,6 @@ img {
   margin-bottom: 4rem;
 }
 
-.img-container {
-  margin-top: 3rem;
-}
-
 .c-a-images-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -422,9 +423,20 @@ img {
   }
 }
 
-@media screen and (max-width: 1021px) {
+@media screen and (max-width: 850px) {
   .c-a-images-container {
     grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+  }
+
+  div.img-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .creatives-around-image {
+    width: 15rem;
   }
 }
 
