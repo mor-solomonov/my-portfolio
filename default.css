@@ -413,6 +413,18 @@ h6 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 1435px) {
+  .c-a-images-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1021px) {
+  .c-a-images-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
