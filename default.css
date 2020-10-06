@@ -401,7 +401,9 @@ img {
 .fa-linkedin {
   font-size: 3rem;
   color: #17a2b8;
-  margin: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
 }
 
 .creatives-around-image {
@@ -422,6 +424,11 @@ img {
   margin-top: 4rem;
 }
 
+.github-projects {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+}
 @media screen and (max-width: 1435px) {
   .c-a-images-container {
     grid-template-columns: 1fr 1fr;
