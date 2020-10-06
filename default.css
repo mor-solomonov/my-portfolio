@@ -463,7 +463,7 @@ img {
 
 @media screen and (max-width: 591px) {
   .c-a-images-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 0fr;
   }
 }
 
