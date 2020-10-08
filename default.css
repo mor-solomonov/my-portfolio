@@ -514,6 +514,9 @@ hr {
   .main-container {
     width: 100%;
   }
+  .main-container-projects {
+    width: 90%;
+  }
   div.corner {
     display: none;
   }
