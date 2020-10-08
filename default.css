@@ -79,6 +79,8 @@ img {
   width: 100%;
 }
 footer {
+  position: sticky;
+  bottom: 0;
   min-height: 10vh;
   background: rgb(47, 49, 51);
   padding-left: 30%;
