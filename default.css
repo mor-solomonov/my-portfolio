@@ -461,7 +461,9 @@ hr {
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
-
+.c-a-images-container {
+  margin-bottom: 2rem;
+}
 .projects-title {
   margin-top: 3rem;
   margin-bottom: 3rem;
