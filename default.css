@@ -468,6 +468,13 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+.adopt-me-images {
+  margin-bottom: 5rem;
+}
+
+.todo-image {
+  margin-bottom: 3rem;
+}
 @media screen and (max-width: 1435px) {
   .c-a-images-container {
     grid-template-columns: 1fr 1fr;
@@ -533,68 +540,68 @@ hr {
     padding-right: 6%;
   }
 
+  @media screen and (max-width: 800px) {
+    .intro-wrapper {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'nav-wrapper'
+        'left-column'
+        'right-column';
+    }
 
-@media screen and (max-width: 800px) {
-  .intro-wrapper {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      'nav-wrapper'
-      'left-column'
-      'right-column';
-  }
-
-  .right-column {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #preview-shadow {
-    max-width: 280px;
-    height: 180px;
-    padding-left: 10px;
-    padding-top: 10px;
+    .right-column {
+      justify-content: center;
+    }
   }
 
-  #preview {
-    width: 280px;
-  }
-}
+  @media screen and (max-width: 400px) {
+    #preview-shadow {
+      max-width: 280px;
+      height: 180px;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
 
-@media screen and (max-width: 349px) {
-  h1 {
-    font-size: 3rem;
-  }
-  .about-wrapper {
-    margin-right: 2rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .about-wrapper {
-    grid-template-columns: none;
-    margin-right: 1rem;
-  }
-  #preview-shadow {
-    max-width: none;
+    #preview {
+      width: 280px;
+    }
   }
 
-  .right-column {
-    padding-top: 0;
+  @media screen and (max-width: 349px) {
+    h1 {
+      font-size: 3rem;
+    }
+    .about-wrapper {
+      margin-right: 2rem;
+    }
   }
 
-  .about-wrapper {
-    padding-top: 20px;
-  }
+  @media screen and (max-width: 320px) {
+    .about-wrapper {
+      grid-template-columns: none;
+      margin-right: 1rem;
+    }
+    #preview-shadow {
+      max-width: none;
+    }
 
-  .social-links {
-    margin-left: 1rem;
-  }
+    .right-column {
+      padding-top: 0;
+    }
 
-  .post {
-    margin-bottom: 2rem;
-  }
-  .post-wrapper {
-    padding-bottom: 10px;
+    .about-wrapper {
+      padding-top: 20px;
+    }
+
+    .social-links {
+      margin-left: 2rem;
+    }
+
+    .post {
+      margin-bottom: 2rem;
+    }
+    .post-wrapper {
+      padding-bottom: 10px;
+    }
   }
 }
