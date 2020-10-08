@@ -80,9 +80,9 @@ img {
 }
 footer {
   min-height: 10vh;
-  background: black;
-  /* padding-left: 10%;
-  padding-right: 10%; */
+  background: rgb(47, 49, 51);
+  padding-left: 30%;
+  padding-right: 30%;
   display: flex;
   align-items: center;
 }
@@ -90,8 +90,11 @@ footer ul {
   display: flex;
   flex: 1;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0;
+}
+hr {
+  margin-top: 2rem;
 }
 
 .img-container {
@@ -420,8 +423,8 @@ footer ul {
 .fa-envelope {
   font-size: 2rem;
   color: #17a2b8;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -447,7 +450,7 @@ footer ul {
 .github-projects {
   margin-bottom: 1rem;
   margin-top: 1rem;
-  margin-left: 2.5rem;
+  margin-left: 1rem;
 }
 
 .todo-image {
@@ -516,6 +519,18 @@ footer ul {
     padding: none;
   }
 }
+@media screen and (max-width: 821px) {
+  .skills_title {
+    margin-top: 0;
+    padding-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 709px) {
+  footer {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
 
 @media screen and (max-width: 800px) {
   .intro-wrapper {
@@ -552,16 +567,7 @@ footer ul {
     margin-right: 2rem;
   }
 }
-@media screen and (max-width: 388px) {
-  .fa-github,
-  .fa-linkedin,
-  .fa-envelope {
-    font-size: 1.2rem;
-  }
-  /* footer ul {
-    display: inline-flex;
-  } */
-}
+
 @media screen and (max-width: 320px) {
   .about-wrapper {
     grid-template-columns: none;
@@ -582,10 +588,7 @@ footer ul {
   .social-links {
     margin-left: 1rem;
   }
-  .skills_title {
-    margin-top: 0;
-    padding-bottom: 1rem;
-  }
+
   .post {
     margin-bottom: 2rem;
   }
