@@ -78,6 +78,22 @@ h6 {
 img {
   width: 100%;
 }
+footer {
+  min-height: 10vh;
+  background: black;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  display: flex;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
 .img-container {
   max-width: 600px;
   margin-top: 2rem;
@@ -306,13 +322,15 @@ img {
 #skills {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 2rem;
   background-color: var(--previewShadow);
 }
 
 .social-links {
-  display: grid;
-  align-content: center;
-  text-align: center;
+  /* display: grid; */
+  /* align-content: center; */
+  /* text-align: center;
+  margin-top: 3rem; */
 }
 
 #social_img {
@@ -398,12 +416,14 @@ img {
 }
 
 .fa-github,
-.fa-linkedin {
-  font-size: 3rem;
+.fa-linkedin,
+.fa-envelope {
+  font-size: 2rem;
   color: #17a2b8;
   margin-right: 3rem;
   margin-left: 3rem;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .creatives-around-image {
@@ -437,6 +457,11 @@ img {
 .adopt_me_images {
   margin-top: 4rem;
   margin-bottom: 2rem;
+}
+
+.projects-title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 @media screen and (max-width: 1435px) {
   .c-a-images-container {
@@ -498,5 +523,32 @@ img {
 
   #preview {
     width: 280px;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 388px) {
+  .fa-github,
+  .fa-linkedin,
+  .fa-envelope {
+    font-size: 1.2rem;
+  }
+  /* footer ul {
+    display: inline-flex;
+  } */
+}
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .about-wrapper {
+    grid-template-columns: none;
+  }
+  div.about-me {
+    font-size: 0.8rem;
   }
 }
