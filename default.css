@@ -498,6 +498,24 @@ footer ul {
     margin-bottom: 2rem;
   }
 }
+@media screen and (max-width: 326px) {
+  .main-container {
+    width: 100%;
+  }
+  div.corner {
+    display: none;
+  }
+
+  div.about-me {
+    margin-left: 1rem;
+  }
+
+  #preview {
+    border: none;
+    background-color: none;
+    padding: none;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .intro-wrapper {
@@ -530,6 +548,9 @@ footer ul {
   h1 {
     font-size: 3rem;
   }
+  .about-wrapper {
+    margin-right: 2rem;
+  }
 }
 @media screen and (max-width: 388px) {
   .fa-github,
@@ -542,13 +563,33 @@ footer ul {
   } */
 }
 @media screen and (max-width: 320px) {
-  h1 {
-    font-size: 3rem;
-  }
   .about-wrapper {
     grid-template-columns: none;
+    margin-right: 1rem;
   }
-  div.about-me {
-    font-size: 0.8rem;
+  #preview-shadow {
+    max-width: none;
+  }
+
+  .right-column {
+    padding-top: 0;
+  }
+
+  .about-wrapper {
+    padding-top: 20px;
+  }
+
+  .social-links {
+    margin-left: 1rem;
+  }
+  .skills_title {
+    margin-top: 0;
+    padding-bottom: 1rem;
+  }
+  .post {
+    margin-bottom: 2rem;
+  }
+  .post-wrapper {
+    padding-bottom: 10px;
   }
 }
