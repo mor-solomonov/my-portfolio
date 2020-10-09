@@ -469,10 +469,6 @@ hr {
   margin-bottom: 3rem;
 }
 
-.footer-alignment {
-  position: absolute;
-  bottom: 0;
-}
 @media screen and (max-width: 1435px) {
   .c-a-images-container {
     grid-template-columns: 1fr 1fr;
