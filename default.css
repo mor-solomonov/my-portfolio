@@ -80,10 +80,11 @@ img {
   width: 100%;
 }
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   min-height: 10vh;
   background: rgb(47, 49, 51);
-  padding-left: 30%;
-  padding-right: 30%;
   display: flex;
   align-items: center;
 }
@@ -340,7 +341,7 @@ hr {
   grid-template-columns: repeat(auto-fit, 320px);
   gap: 20px;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 13rem;
 }
 
 .post {
@@ -456,14 +457,14 @@ hr {
   margin-bottom: 2rem;
 }
 .c-a-images-container {
-  margin-bottom: 2rem;
+  margin-bottom: 13rem;
 }
 .projects-title {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 .adopt-me-images {
-  margin-bottom: 5rem;
+  margin-bottom: 13rem;
 }
 
 .todo-image {
@@ -532,74 +533,64 @@ hr {
     padding-bottom: 1rem;
   }
 }
-@media screen and (max-width: 709px) {
-  footer {
-    padding-left: 6%;
-    padding-right: 6%;
+
+@media screen and (max-width: 800px) {
+  .intro-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'nav-wrapper'
+      'left-column'
+      'right-column';
   }
 
-  @media screen and (max-width: 800px) {
-    .intro-wrapper {
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        'nav-wrapper'
-        'left-column'
-        'right-column';
-    }
+  .right-column {
+    justify-content: center;
+  }
+}
 
-    .right-column {
-      justify-content: center;
-    }
+@media screen and (max-width: 400px) {
+  #preview-shadow {
+    max-width: 280px;
+    height: 180px;
+    padding-left: 10px;
+    padding-top: 10px;
   }
 
-  @media screen and (max-width: 400px) {
-    #preview-shadow {
-      max-width: 280px;
-      height: 180px;
-      padding-left: 10px;
-      padding-top: 10px;
-    }
+  #preview {
+    width: 280px;
+  }
+}
 
-    #preview {
-      width: 280px;
-    }
+@media screen and (max-width: 349px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .about-wrapper {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about-wrapper {
+    grid-template-columns: none;
+    margin-right: 1rem;
+  }
+  #preview-shadow {
+    max-width: none;
   }
 
-  @media screen and (max-width: 349px) {
-    h1 {
-      font-size: 3rem;
-    }
-    .about-wrapper {
-      margin-right: 2rem;
-    }
+  .right-column {
+    padding-top: 0;
   }
 
-  @media screen and (max-width: 320px) {
-    .about-wrapper {
-      grid-template-columns: none;
-      margin-right: 1rem;
-    }
-    #preview-shadow {
-      max-width: none;
-    }
+  .about-wrapper {
+    padding-top: 20px;
+  }
 
-    .right-column {
-      padding-top: 0;
-    }
-
-    .about-wrapper {
-      padding-top: 20px;
-    }
-
-    .social-links {
-      margin-left: 2rem;
-    }
-
-    .post {
-      margin-bottom: 2rem;
-    }
-    .post-wrapper {
-      padding-bottom: 10px;
-    }
+  .post {
+    margin-bottom: 2rem;
+  }
+  .post-wrapper {
+    padding-bottom: 7rem;
   }
 }
