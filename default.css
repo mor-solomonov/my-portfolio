@@ -329,13 +329,6 @@ hr {
   background-color: var(--previewShadow);
 }
 
-.social-links {
-  /* display: grid; */
-  /* align-content: center; */
-  /* text-align: center;
-  margin-top: 3rem; */
-}
-
 #social_img {
   width: 100%;
   margin-top: 2rem;
@@ -474,6 +467,11 @@ hr {
 
 .todo-image {
   margin-bottom: 3rem;
+}
+
+.footer-alignment {
+  position: absolute;
+  bottom: 0;
 }
 @media screen and (max-width: 1435px) {
   .c-a-images-container {
