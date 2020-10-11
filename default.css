@@ -463,6 +463,7 @@ hr {
 
 .todo-image {
   margin-top: 2rem;
+  margin-bottom: 10rem;
 }
 
 .adopt_me_images {
@@ -478,10 +479,6 @@ hr {
 }
 .adopt-me-images {
   margin-bottom: 13rem;
-}
-
-.todo-image {
-  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 1435px) {
