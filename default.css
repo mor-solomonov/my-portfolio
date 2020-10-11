@@ -83,8 +83,8 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  min-height: 10vh;
-  background: rgb(47, 49, 51);
+  height: 5rem;
+  background: rgb(39, 40, 41);
   display: flex;
   align-items: center;
 }
@@ -416,11 +416,11 @@ hr {
 .fa-github,
 .fa-linkedin,
 .fa-envelope {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #17a2b8;
   padding-right: 2rem;
   padding-left: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
