@@ -92,8 +92,16 @@ footer ul {
   display: flex;
   flex: 1;
   list-style: none;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   padding: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer ul li {
+  align-items: center;
+  display: inline-block;
 }
 hr {
   margin-top: 2rem;
@@ -525,6 +533,10 @@ hr {
     border: none;
     background-color: none;
     padding: none;
+  }
+
+  #social-links {
+    margin-left: 1rem;
   }
 }
 @media screen and (max-width: 821px) {
