@@ -494,6 +494,12 @@ hr {
     grid-template-columns: 1fr 1fr;
   }
 }
+@media screen and (max-width: 1200px) {
+  .main-container {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}
 
 @media screen and (max-width: 850px) {
   .c-a-images-container {
@@ -511,20 +517,62 @@ hr {
     width: 15rem;
   }
 }
+@media screen and (max-width: 821px) {
+  .skills_title {
+    margin-top: 0;
+    padding-bottom: 1rem;
+  }
+  .aboutme-title {
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'nav-wrapper'
+      'left-column'
+      'right-column';
+  }
+
+  .right-column {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 733px) {
+  .post {
+    margin-bottom: 1.5rem;
+  }
+}
 
 @media screen and (max-width: 591px) {
   .c-a-images-container {
     grid-template-columns: 0fr;
   }
 }
+@media screen and (max-width: 413px) {
+  #preview-shadow {
+    max-width: 300px;
+    height: 180px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
 
-@media screen and (max-width: 1200px) {
-  .main-container {
-    width: 90%;
-    margin-bottom: 2rem;
+  #preview {
+    width: 280px;
   }
 }
-@media screen and (max-width: 326px) {
+@media screen and (max-width: 357px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .about-wrapper {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 357px) {
   .main-container {
     width: 100%;
   }
@@ -549,48 +597,6 @@ hr {
     margin-left: 1rem;
   }
 }
-@media screen and (max-width: 821px) {
-  .skills_title {
-    margin-top: 0;
-    padding-bottom: 1rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .intro-wrapper {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      'nav-wrapper'
-      'left-column'
-      'right-column';
-  }
-
-  .right-column {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #preview-shadow {
-    max-width: 280px;
-    height: 180px;
-    padding-left: 10px;
-    padding-top: 10px;
-  }
-
-  #preview {
-    width: 280px;
-  }
-}
-
-@media screen and (max-width: 349px) {
-  h1 {
-    font-size: 3rem;
-  }
-  .about-wrapper {
-    margin-right: 2rem;
-  }
-}
 
 @media screen and (max-width: 320px) {
   .about-wrapper {
@@ -605,9 +611,9 @@ hr {
     padding-top: 0;
   }
 
-  .about-wrapper {
+  /* .about-wrapper {
     padding-top: 20px;
-  }
+  } */
 
   .post {
     margin-bottom: 2rem;
