@@ -24,9 +24,9 @@ body {
   box-sizing: border-box;
 }
 
-body * {
+/* body * {
   transition: 0.3s;
-}
+} */
 
 h1,
 h2,
