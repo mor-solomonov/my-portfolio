@@ -246,9 +246,9 @@ hr {
   cursor: pointer;
 }
 
-.theme-dot:hover {
+/* .theme-dot:hover {
   border-width: 5px;
-}
+} */
 
 #light-mode {
   background-color: #fff;
